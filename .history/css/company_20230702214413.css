@@ -155,24 +155,17 @@ small {
         font-size: 3rem;
         margin-bottom: 19px;
     }
-    .pc {
-        display: none;
-    }
-    .sp {
-        display: block;
-    }
+    
 
     /* header_sp */
     .header {
         padding: 0;
         z-index: 1;
         position: relative;
-    }
-    .header-inner {
-        height: 60px;
+
     }
     .nav-title {
-        padding: 0 0 0 20px;
+        padding: 22px 20px;
     }
     .header-nav {
         display: none;
@@ -202,9 +195,7 @@ small {
     .hamburger-btn {
         display: block;
         background-color: #DD1B57;
-        padding: 0px 16px;
-        width: 60px;
-        height: 60px;
+        padding: 26px 16px;
     }
     .hamburger-btn .bar {
         display: block;
