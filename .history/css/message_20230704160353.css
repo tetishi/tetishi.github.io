@@ -206,7 +206,6 @@ small {
         height: 2px;
         background-color: #fff;
         transition: .3s;
-        border-radius: 4px;
     }
     .bar_mid,
     .bar_bottom {

@@ -203,17 +203,16 @@ small {
     .hamburger-btn .bar {
         display: block;
         width: 26px;
-        height: 2px;
+        height: 3px;
         background-color: #fff;
         transition: .3s;
-        border-radius: 4px;
     }
     .bar_mid,
     .bar_bottom {
         margin-top: 8px;
     }
     .hamburger-btn.cross .bar_top {
-        transform: rotate(45deg) translate(7px, 7px);
+        transform: rotate(45deg) translate(8px, 8px);
         transition: .3s;
     }
     .hamburger-btn.cross .bar_middle {
@@ -221,7 +220,7 @@ small {
         transition: .3s;
     }
     .hamburger-btn.cross .bar_bottom {
-        transform: rotate(-45deg) translate(7px, -7px);
+        transform: rotate(-45deg) translate(7px, -8px);
         transition: .3s;
     }
     body.noscroll {

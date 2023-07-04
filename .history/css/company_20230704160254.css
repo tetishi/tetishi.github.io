@@ -79,45 +79,51 @@ a {
     font-size: 4rem;
 }
 
-/* message */
-.message-wrapper {
-    margin: 60px 0 80px 0;
+/* company */
+.company-wrapper {
+    margin: 86px 0 50px 0;
 }
-.message-inner {
-    max-width: 850px;
-    margin: 0 auto;
+.company-item {
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 1.5rem;
+    padding-left: 30px;
 }
-.message-title {
-    font-size: 4rem;
-    text-align: center;
-    color: #DD1B57;
-    font-weight: normal;
-}
-.message-text {
-    text-align: center;
-    font-size: 1.8rem;
-    margin: 27px 0 39px;
-}
-.message-container {
-    padding: 0 27px;
-}
-.message-container img {
-    width: 100px;
-    height: 100px;
-    margin-right: 25px;
-    float: left;
-}
-.ceo-message a {
-    text-decoration: underline;
-    color: #349BF4;
+.company-item-title {
+    width: 30%;
 }
 
-/* office */
-.office-wrapper {
+/* map */
+.map-wrapper {
+    margin-bottom: 78px;
+}
+.map-wrapper a {
+    text-decoration: underline;
+    color: #349BF4;
+    display: block;
+    text-align: right;
+}
+iframe {
+    margin-bottom: 21px;
+}
+
+/* news */
+.news-wrapper {
     margin-bottom: 100px;
 }
-.sp-office-img {
-    display: none;
+.news-inner {
+    display: flex;
+    column-gap: 90px;
+}
+.news-item {
+    padding: 15px 0 16px 0;
+    border-bottom: 1px solid #E8E8E8;
+    display: flex;
+    font-size: 1.5rem;
+}
+.news-item a {
+    margin-left: 40px;
 }
 
 
@@ -213,7 +219,7 @@ small {
         margin-top: 8px;
     }
     .hamburger-btn.cross .bar_top {
-        transform: rotate(45deg) translate(7px, 7px);
+        transform: rotate(45deg) translate(7px, 8px);
         transition: .3s;
     }
     .hamburger-btn.cross .bar_middle {
@@ -221,7 +227,7 @@ small {
         transition: .3s;
     }
     .hamburger-btn.cross .bar_bottom {
-        transform: rotate(-45deg) translate(7px, -7px);
+        transform: rotate(-45deg) translate(8px, -8px);
         transition: .3s;
     }
     body.noscroll {
@@ -239,45 +245,45 @@ small {
         font-size: 2.8rem;
     }
 
-    /* message_sp */
-    .message-wrapper {
-        margin: 30px 0 50px 0;
+    /* company_sp */
+    .company-wrapper {
+        margin: 56px 0 50px 0;
     }
-    .message-inner {
-        padding: 0px;
+    .company-item {
+        padding: 21px 0 19px;
+        font-size: 1.4rem;
+        padding-left: 0px;
     }
-    .message-title {
-        font-size: 2.4rem;
+    .company-item:first-child {
+        padding: 0 0 19px;
     }
-    .message-text {
-        font-size: 1.5rem;
-        margin: 20px 0 31px;
-    }
-    .message-container {
-        padding: 0;
-    }
-    .message-container img {
-        margin-right: 15px;
-    }
-    .ceo-message {
-        font-size: 1.5rem;
-    }
-    .ceo-message a {
-        text-decoration: none;
-        color: inherit;
+    .company-item-body {
+        width: 70%;
     }
 
-    /* office_sp */
-    .office-wrapper {
-        margin-bottom: 50px;
+    /* map_sp */
+    .map-wrapper {
+        margin-bottom: 46px;
     }
-    .sp-office-img {
+    iframe {
+        margin-bottom: 16px;
+    }
+
+    /* news_sp */
+    .news-wrapper {
+        margin: 46px 0 50px 0;
+    }
+    .news-inner {
         display: block;
     }
-    .office-img {
-        display: none;
+    .news-item {
+        padding: 20px 0 16px 0;
+        flex-flow: column;
     }
-
+    .news-item a {
+        margin-left: 0px;
+    }    
+    
     /* footer_sp */
     .footer {
         height: 119px;
