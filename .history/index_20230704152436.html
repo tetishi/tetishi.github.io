@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+    <!-- <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <h2 class="nav-title">
+                <a href="./index.html">
+                    <img class="pc" src="img/logo.svg" alt="STARTのロゴ">
+                    <img class="sp" src="img/sp_logo.svg" alt="STARTのロゴ">
+                </a>
+            </h2>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="./index.html" class="text-red">ホーム</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="./message.html">メッセージ</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="./company.html">会社概要</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger-btn">
+                <span class="bar bar_top"></span>
+                <span class="bar bar_mid"></span>
+                <span class="bar bar_bottom"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- fv -->
+        <div class="fv">
+            <div class="fv_img">
+                <picture>
+                    <source srcset="./img/fv.webp" type="image/webp">
+                    <img src="./img/fv.jpg" alt="STARTの赤いイメージ背景">
+                </picture>
+            </div>
+            <div class="sp_fv_img">
+                <picture>
+                    <source srcset="./img/sp_fv.webp" type="image/webp">
+                    <img src="./img/sp_fv.jpg" alt="STARTの赤いイメージ背景">
+                </picture>
+            </div>
+            <!-- page-title-wrapper -->
+            <div class="page-title-wrapper">
+                <h1 class="page-title">START</h1>
+                <div class="page-title-bottom">仕事に最高のスタートを。</div>
+                <!-- /.page-title-bottom -->
+            </div>
+        </div>
+
+        <!-- news -->
+        <section id="news" class="section-wrapper news-wrapper">
+            <div class="section-inner news-inner">
+                <h2 class="section-title news-title">
+                    ニュース
+                </h2>
+                <div class="news-container">
+                    <ul class="news-list">
+                        <li class="news-item">
+                            <time datetime="2023.02.10">2023.02.10</time>
+                            <a href="#news">コーポレートサイトをリニューアルしました。</a>
+                        </li>
+                        <li class="news-item">
+                            <time datetime="2023.02.08">2023.02.08</time>
+                            <a href="#news">採用を強化中です！一緒に働きませんか？</a>
+                        </li>
+                        <li class="news-item">
+                            <time datetime="2022.02.02">2022.02.02</time>
+                            <a href="#news">人材紹介SNS『スタート』をリリースしました。3/31まで新規登録キャンペーンを開催中です！サービス内で使える500ポイントをプレゼント！</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.news-container -->
+            </div>
+            <!-- /.section-inner -->
+        </section>
+
+        <!-- service -->
+        <section id="service" class="section-wrapper service-wrapper">
+            <div class="section-inner">
+                <h2 class="section-title text-right text-white">サービス</h2>
+                <h2 class="upper-text text-white">SERVICE</h2>
+                <ul class="service-list">
+                    <li class="service-item">
+                            <picture>
+                                <source srcset="./img/bag.webp" type="image/webp">
+                                <img src="./img/bag.png" alt="手提げ鞄">
+                            </picture>
+                            <h3 class="service-item-title">人材紹介業</h3>
+                            <p class="service-item-text">
+                                新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。
+                            </p>
+                    </li>
+                    <li class="service-item">
+                            <picture>
+                                <source srcset="./img/school.webp" type="image/webp">
+                                <img src="./img/school.png" alt="スクール">
+                            </picture>
+                            <h3 class="service-item-title">スクール事業</h3>
+                            <p class="service-item-text">
+                                オンラインでWeb制作を学べるスクールを運営しています。
+                            </p>
+                    </li>
+                    <li class="service-item">
+                            <picture>
+                                <source srcset="./img/web.webp" type="image/webp">
+                                <img src="./img/web.png" alt="モニター">
+                            </picture>
+                            <h3 class="service-item-title">Webメディア運営</h3>
+                            <p class="service-item-text">
+                                人事系メディアやWebデザイン関連のメディアなどを複数運営しています。
+                            </p>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.section-inner -->
+        </section>
+
+    </main>
+    
+
+    <footer class="footer">
+        <div class="section-inner">
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><a href="./index.html">ホーム</a></li>
+                    <li class="footer-nav-item"><a href="./message.html">メッセージ</a></li>
+                    <li class="footer-nav-item"><a href="./company.html">会社概要</a></li>
+                </ul>
+            </nav>
+            <small>&copy;START</small>    
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
