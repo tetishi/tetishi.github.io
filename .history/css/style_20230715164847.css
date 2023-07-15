@@ -72,7 +72,7 @@ a {
     position: relative;
 }
 .fv img {
-    height: calc(100vh - 60px);
+    height: calc();
     min-height: 550px;
     object-fit: cover;
 }
