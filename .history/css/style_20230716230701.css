@@ -239,7 +239,7 @@ small {
     .hamburger-btn {
         display: block;
         background-color: #DD1B57;
-        padding: 19px 17px 0;
+        padding: 22px 17px 0;
         width: 60px;
         height: 60px;
     }
@@ -275,9 +275,7 @@ small {
     .fv {
         height: calc(100vh - 60px);
     }
-    .fv img {
-        height: calc(100vh - 60px);
-    }
+    .fv img
     .fv_img {
         display: none;
     }

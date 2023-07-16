@@ -67,10 +67,12 @@ a {
 
 /* fv */
 .fv {
+    height: 100vh;
     min-height: 550px;
     position: relative;
 }
 .fv img {
+    height: calc(100vh - 60px);
     min-height: 550px;
     object-fit: cover;
 }
@@ -239,7 +241,7 @@ small {
     .hamburger-btn {
         display: block;
         background-color: #DD1B57;
-        padding: 19px 17px 0;
+        padding: 22px 17px 0;
         width: 60px;
         height: 60px;
     }
@@ -254,6 +256,9 @@ small {
     .bar_mid,
     .bar_bottom {
         margin-top: 8px;
+    }
+    .bar_bottom {
+        padding-bottom: ;
     }
     .hamburger-btn.cross .bar_top {
         transform: rotate(45deg) translate(7px, 7px);
@@ -272,12 +277,6 @@ small {
     }
     
     /* fv_sp */
-    .fv {
-        height: calc(100vh - 60px);
-    }
-    .fv img {
-        height: calc(100vh - 60px);
-    }
     .fv_img {
         display: none;
     }
