@@ -61,9 +61,6 @@ a {
 .header-item:last-of-type {
     margin-right: 0;
 }
-.overlay {
-    display: none;
-}
 .hamburger-btn {
     display: none;
 }
@@ -247,7 +244,7 @@ small {
         display: block
     }
     .hamburger-btn {
-        display: block;
+        /* display: block; */
         background-color: #DD1B57;
         padding: 0px 16px;
         /* padding: 19px 17px 0; */
@@ -283,7 +280,6 @@ small {
         overflow: hidden;
     }
     .overlay {
-        display: block;
         /* background-color: #000; */
         /* cursor: pointer; */
         height: 100vh;

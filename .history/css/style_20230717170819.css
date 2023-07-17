@@ -283,7 +283,7 @@ small {
         overflow: hidden;
     }
     .overlay {
-        display: block;
+        di
         /* background-color: #000; */
         /* cursor: pointer; */
         height: 100vh;

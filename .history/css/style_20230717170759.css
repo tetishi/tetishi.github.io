@@ -62,7 +62,7 @@ a {
     margin-right: 0;
 }
 .overlay {
-    display: none;
+    di
 }
 .hamburger-btn {
     display: none;
@@ -283,7 +283,6 @@ small {
         overflow: hidden;
     }
     .overlay {
-        display: block;
         /* background-color: #000; */
         /* cursor: pointer; */
         height: 100vh;
