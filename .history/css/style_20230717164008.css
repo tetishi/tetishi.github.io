@@ -240,8 +240,8 @@ small {
     .hamburger-btn {
         display: block;
         background-color: #DD1B57;
-        padding: 0px 16px;
-        /* padding: 19px 17px 0; */
+        
+        padding: 19px 17px 0;
         width: 60px;
         height: 60px;
         /* z-index: 3; */

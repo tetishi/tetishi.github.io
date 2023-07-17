@@ -219,7 +219,6 @@ small {
         width: 50%;
         height: 100vh;
         background-color: #DD1B57;
-        /* z-index: 2; */
     }
     .header-list {
         height: 100%;
@@ -240,11 +239,9 @@ small {
     .hamburger-btn {
         display: block;
         background-color: #DD1B57;
-        padding: 0px 16px;
-        /* padding: 19px 17px 0; */
+        padding: 19px 17px 0;
         width: 60px;
         height: 60px;
-        /* z-index: 3; */
     }
     .hamburger-btn .bar {
         display: block;
@@ -274,17 +271,17 @@ small {
         overflow: hidden;
     }
     .overlay {
-        /* background-color: #000; */
-        /* cursor: pointer; */
+        /* background-color: #000;
+        cursor: pointer; */
         height: 100vh;
         left: 0;
         opacity: 0;
         position: fixed;
         top: 0;
-        /* transition: all 0.6s; */
+        transition: all 0.6s;
         visibility: hidden;
         width: 100vw;
-        z-index: -1;
+        z-index: 1;
     }
     
     /* fv_sp */

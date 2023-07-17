@@ -1,5 +1,5 @@
 //ハンバーガーボタン
-$('.hamburger-menu').on('click', function() {
+$('.hamburger-btn').on('click', function() {
     $('.header-nav').fadeToggle(300);
     $('.hamburger-btn').toggleClass('cross');
     $('body').toggleClass('noscroll');
@@ -12,3 +12,10 @@ $('.hamburger-menu').on('click', function() {
         })
     }
 });
+
+
+// if($('.nav-Toggle').hasClass('active')){
+//     $('.main').on('click',function() {
+//     $('.nav-Toggle').removeClass('active');
+//     $('.header-menu').removeClass('open');
+// })
