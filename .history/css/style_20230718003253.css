@@ -292,9 +292,18 @@ small {
         position: fixed;
         top: 0;
         /* transition: all 0.6s; */
-        /* visibility: hidden; */
+        visibility: hidden;
         width: 50%;
-        z-index: 1;
+        /* z-index: -1; */
+
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+        background-color: #DD1B57;
+
     }
     
     /* fv_sp */

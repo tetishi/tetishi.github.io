@@ -6,6 +6,7 @@ $('.hamburger-menu').on('click', function() {
     $('body').toggleClass('noscroll');
 
     if($('.hamburger-btn').hasClass('cross')) {
+        
         $('.overlay').on('click', function() {
             console.log('オーバーレイ');
             // $('.header-nav').fadeOut(300);
