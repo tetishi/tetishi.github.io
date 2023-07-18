@@ -237,6 +237,9 @@ small {
     body.noscroll {
         overflow: hidden;
     }
+    .overlay {
+        display: none;
+    }
     .overlay.active {
         display: block;
         height: 100vh;

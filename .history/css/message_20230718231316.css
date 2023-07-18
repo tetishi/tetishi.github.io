@@ -54,13 +54,7 @@ a {
 .header-item:last-of-type {
     margin-right: 0;
 }
-.overlay {
-    display: none;
-}
 .hamburger-btn {
-    display: none;
-}
-.hamburger-menu {
     display: none;
 }
 
@@ -236,6 +230,9 @@ small {
     }
     body.noscroll {
         overflow: hidden;
+    }
+    .overlay {
+        display: none;
     }
     .overlay.active {
         display: block;
