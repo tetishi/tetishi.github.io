@@ -99,6 +99,7 @@ a {
     font-size: 4rem;
     text-align: center;
     color: #DD1B57;
+    font-weight: normal;
 }
 .message-text {
     text-align: center;
@@ -141,7 +142,6 @@ a {
 }
 .footer-nav-item {
     margin-right: 40px;
-    font-weight: bold;
 }
 small {
     font-size: 1.2rem;
